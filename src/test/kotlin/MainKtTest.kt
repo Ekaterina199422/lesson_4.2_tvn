@@ -16,7 +16,7 @@ class MainKtTest {
             monthTransfer = monthTransfer,
             transfer = transfer
         )
-        assertEquals(result, 10)
+        assertEquals(result, 0)
     }
 
     @Test
