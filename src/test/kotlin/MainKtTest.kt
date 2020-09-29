@@ -1,7 +1,8 @@
+package ru.netology
+
 import org.junit.Test
 
 import org.junit.Assert.*
-import ru.netology.commissionAmount
 
 class MainKtTest {
 
@@ -15,7 +16,7 @@ class MainKtTest {
             monthTransfer = monthTransfer,
             transfer = transfer
         )
-        assertEquals(result, 0)
+        assertEquals(result, 10)
     }
 
     @Test
